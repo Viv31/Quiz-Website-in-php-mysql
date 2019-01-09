@@ -1,0 +1,47 @@
+/*
+CSS FILE FOR INDEX PAGE
+
+*/
+/*
+==========================================================================
+			Start of Login Page CSS
+*/
+.bg{
+	background: url('../img/fog.jpg');
+	/* Calling Background Image from img Folder */
+	background-repeat: no-repeat;
+	/* Setting propert that will not repeat our background */
+	width: 100%;
+	/*giving Width of our background Image */
+	height: 100vh;
+	/* Setting height of background image vertically */
+}
+.form-container{
+	/*Creating a container outside the input field*/
+	border:0px solid;
+	/* Setting border */
+	padding: 50px 60px;
+	/* giving space of input field from top/bottom and left/right*/
+	margin-top: 14vh;
+	/* Giving margin from top so it will appear on the center of page  */
+	-webkit-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	/*Setting Shadow effect on form container*/
+	/* Refrence website for creating shadow effects https://www.cssmatic.com/box-shadow*/
+
+}
+span{
+
+	font-weight: 700;
+}
+span a{
+	color:white;
+}
+label{
+	font-weight: 700;
+}
+hr{
+	border-top:  1px solid black;
+}
+
