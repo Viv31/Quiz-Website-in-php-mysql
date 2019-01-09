@@ -1,0 +1,130 @@
+/*
+CSS FILE 
+*/
+/*
+==========================================================================
+			Start of Login Page CSS
+*/
+.bg{
+	background: url('../img/bg.jpg');
+	/* Calling Background Image from img Folder */
+	background-repeat: no-repeat;
+	/* Setting propert that will not repeat our background */
+	width: 100%;
+	/*giving Width of our background Image */
+	height: 100vh;
+	/* Setting height of background image vertically */
+
+}
+.form-container{
+	/*Creating a container outside the input field*/
+	border:0px solid;
+	/* Setting border */
+	padding: 50px 60px;
+	/* giving space of input field from top/bottom and left/right*/
+	margin-top: 14vh;
+	/* Giving margin from top so it will appear on the center of page  */
+	-webkit-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	/*Setting Shadow effect on form container*/
+	/* Refrence website for creating shadow effects https://www.cssmatic.com/box-shadow*/
+
+}
+span{
+
+	font-weight: 700;
+}
+span a{
+	color:white;
+}
+label{
+	font-weight: 700;
+}
+
+/*
+					End of Login Page CSS
+==========================================================================================
+
+*/
+
+/*                   Start Of Register Page CSS    */
+
+.rgbg{
+	background: url('../img/nature.jpg');
+	/* Calling Background Image from img Folder */
+	background-repeat: repeat;
+	/* Setting propert that will not repeat our background */
+	width: 100%;
+	/*giving Width of our background Image */
+	height: 100vh;
+	/* Setting height of background image vertically */
+	/*background-size: cover;*/
+}
+.form-container_register{
+	/*Creating a container outside the input field*/
+	border:0px solid #fff;
+	/* Setting border */
+	
+	padding: 20px 20px;
+	/* giving space of input field from top/bottom and left/right*/
+	margin-top: 2vh;
+
+	/* Giving margin from top so it will appear on the center of page  */
+	-webkit-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	box-shadow: -4px 9px 18px 9px rgba(0,0,0,0.75);
+	/*Setting Shadow effect on form container*/
+	/* Refrence website for creating shadow effects https://www.cssmatic.com/box-shadow*/
+
+
+
+
+
+}
+.control-label,h1,.show_pass,h2,.lab
+{
+	color:white;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+.homebg{
+background: url('../img/rgbg.jpg');
+	/* Calling Background Image from img Folder */
+	background-repeat: no-repeat;
+	/* Setting propert that will not repeat our background */
+	width: 100%;
+	/*giving Width of our background Image */
+	height: 100vh;
+	/* Setting height of background image vertically */
+	margin-top:-20px;
+	
+
+}
+.username{
+	color: orange;
+}
