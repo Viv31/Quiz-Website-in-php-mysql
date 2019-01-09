@@ -21,16 +21,7 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 	
 }
 else{
-
 move_uploaded_file($tempname,$folder);
-
-
-
-
-
-
-
-
 	$firstname= ucfirst($_POST['fname']);
 	if (!preg_match("/^[a-zA-Z ]*$/",$firstname))
 	 {
@@ -38,14 +29,12 @@ move_uploaded_file($tempname,$folder);
   echo $nameErr;
   echo "<br>";
 }
-
 	$lastname=ucfirst($_POST['lname']);
 	if (!preg_match("/^[a-zA-Z ]*$/",$lastname))
 	 {
   $nameErr = "Only letters and white space allowed"; 
   echo $nameErr;
 }
-
 	$email= strtolower($_POST['email']);
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format"; 
@@ -87,18 +76,8 @@ else{
 
 	header('location:index.php?status=success');
 }
-
 	}
-
-
-
 	}
-
-
-
-
-
 }
-
 }
 ?>
