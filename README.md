@@ -1,6 +1,6 @@
 ========================================================================================================================================
                                                                # Quiz-Website
-=========================================================================================================================================
+========================================================================================================
 It is a Quiz website with multiple categories where use can test any of category once user choose any category or answerd any category even select and leave any category so it will not appear again.
 
 Special functionality is that when use eached on user answer details page it will auto matically captue sceensot and store in ScreenShot Folder .
